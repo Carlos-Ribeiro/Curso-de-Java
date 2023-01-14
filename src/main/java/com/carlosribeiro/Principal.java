@@ -4,7 +4,8 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        Empregado e1, e2;
+        Empregado e1;
+        Empregado e2;
 		e1 = new Empregado("Sergio", 8000);
 		e2 = new Empregado("Lucia", 9000);
 		System.out.println(e1.getNome() + "  " + e1.getSalario());
