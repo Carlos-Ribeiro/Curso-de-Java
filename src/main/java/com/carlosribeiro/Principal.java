@@ -19,7 +19,7 @@ public class Principal
 			System.out.println('\n' + "1. Cadastrar um empregado");
 			System.out.println("2. Alterar um empregado");
 			System.out.println("3. Remover um empregado");
-			System.out.println("4. Listar relação de empregados");
+			System.out.println("4. Listar todos empregados");
 			System.out.println("5. Sair");
 
 			int opcao = Console.readInt('\n' + "Digite um número entre 1 e 5:");

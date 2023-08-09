@@ -13,8 +13,8 @@ public class Empregado
 	@Override
 	public String toString() {
 		return "Empregado{" +
-				"nome='" + nome + '\'' +
-				", salario=" + salario +
+				"nome ='" + nome + '\'' +
+				", salario =" + salario +
 				'}';
 	}
 
