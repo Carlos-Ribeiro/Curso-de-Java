@@ -10,7 +10,13 @@ public class Empregado
 		salario = s;
 	}
 
-	// ==> toString()
+	@Override
+	public String toString() {
+		return "Empregado{" +
+				"nome='" + nome + '\'' +
+				", salario=" + salario +
+				'}';
+	}
 
 	public String getNome()
 	{	return nome;
